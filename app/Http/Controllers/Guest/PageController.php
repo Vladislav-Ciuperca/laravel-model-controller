@@ -12,11 +12,11 @@ class PageController extends Controller
     public function home()
     {
 
-   
 
-         $movies = movies::all();
 
-    
+        $movies = movies::all();
+
+
 
         $dati = [
             "store" => config("data"),
